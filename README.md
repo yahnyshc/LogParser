@@ -2,13 +2,19 @@
 Parses log file to find the most active cookies. Supports log file filtering by date and various timestamp processing.
 
 To run the tests use:
+
 python3 test_log_parser.py
+
 and/or
+
 python3 test_timestamp_parser.py
 
 To find the most active cookies run:
+
 python3 most_active_cookies.py -f cookie_log.csv
+
 or 
+
 python3 most_active_cookies.py -f cookie_log.csv -d 2018-12-09
 
 Sample output:
