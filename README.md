@@ -9,16 +9,19 @@ and/or
 
 python3 test_timestamp_parser.py
 
-To find the most active cookies run:
+Run the command below to find the most active cookies on the given date in a log file:
+
+python3 most_active_cookies.py -f cookie_log.csv -d YYYY-MM-DD
+
+Example output:
+
+![image](https://github.com/yahnyshc/LogParser/assets/143096926/313b2939-fb1f-469d-815d-16afd0251877)
+
+Run the command below to find the most active cookies in the whole log file:
 
 python3 most_active_cookies.py -f cookie_log.csv
 
-or 
-
-python3 most_active_cookies.py -f cookie_log.csv -d 2018-12-09
-
-Sample output:
-![image](https://github.com/yahnyshc/LogParser/assets/143096926/313b2939-fb1f-469d-815d-16afd0251877)
+Example output:
 
 ![image](https://github.com/yahnyshc/LogParser/assets/143096926/4b51acd5-3181-4619-8233-1896bd715e9f)
 
